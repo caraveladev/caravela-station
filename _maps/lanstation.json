@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"map_name": "Lan Station",
+	"map_path": "map_files/LanStation",
+	"map_file": "LanStation.dmm",
+	"shuttles": {
+		"emergency": "emergency_box",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_box",
+		"whiteship": "whiteship_delta"
+	},
+	"job_changes": {
+		"cook": {
+			"additional_cqc_areas": ["/area/service/bar/atrium"]
+		}
+	}
+}
